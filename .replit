@@ -25,3 +25,7 @@ waitForPort = 8080
 
 [workflows.workflow.metadata]
 outputType = "console"
+
+[nix]
+channel = "stable-25_05"
+packages = ["unzip", "jq"]
